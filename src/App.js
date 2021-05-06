@@ -1,10 +1,11 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import TableTitle from "./components/TableTitle";
 
 function App() {
   return (
-    <div className="App">
- init
+    <div className="container d-flex justify-content-center flex-wrap">
+      <TableTitle/>
     </div>
   );
 }
